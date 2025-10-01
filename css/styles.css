@@ -291,7 +291,6 @@ img {
   width: 264px;
   height: 112px;
   background: #f4f4fd;
-  padding: 24px 100px;
   margin-bottom: 8px;
   display: flex;
   align-items: center;
@@ -356,14 +355,12 @@ img {
   color: #2e2f42;
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: 8px;
   text-align: center;
 }
 
 .text-team {
   text-align: center;
   color: #434455;
-  padding-bottom: 8px;
 }
 
 .dream-team-wrapper {
@@ -531,6 +528,7 @@ img {
 
 .portfolio-li:hover .overlay-text {
   transform: translateY(0%);
+  cursor: pointer;
 }
 
 /* =========== /portfolio section =========== */
